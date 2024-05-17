@@ -1,0 +1,49 @@
+
+1.api for register a new user
+    url:-http://127.0.0.1:8000/api/register/
+    method:post
+    data:{username,email,password}
+    authorization:null
+    
+
+2.api for fetching token
+    url:-http://127.0.0.1:8000/api/token/
+    method:post
+    data:{username,password}
+    authorization:null
+    
+
+3.api for adding task
+    url:- http://127.0.0.1:8000/api/v1/task/
+    method:post
+    data:{title}
+    authorization:Token 
+    
+
+4.api for listing all task
+    url:- http://127.0.0.1:8000/api/v1/task/
+    method:get
+    data:nill
+    authorization:Token
+    
+
+5.api for retrieving a specific task
+    url:- http://127.0.0.1:8000/api/v1/task/{id}/
+    method:get
+    data:nill
+    authorization:Token
+    
+
+6.api for updating a task
+    url:- http://127.0.0.1:8000/api/v1/task/{id}/
+    method:put
+    data:{status}
+    authorization:Token
+    
+
+7.api for delete a specific task
+    url:- http://127.0.0.1:8000/api/v1/task/{id}/
+    method:delete
+    data:{nill}
+    authorization:Token
+    
